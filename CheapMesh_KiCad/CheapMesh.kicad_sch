@@ -6437,7 +6437,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "USB_D+"
 		(shape input)
 		(at 120.65 118.11 0)
 		(fields_autoplaced yes)
@@ -6503,7 +6503,7 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
+	(global_label "USB_D-"
 		(shape input)
 		(at 120.65 115.57 0)
 		(fields_autoplaced yes)
