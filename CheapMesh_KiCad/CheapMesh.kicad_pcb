@@ -9238,13 +9238,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX"
+	(gr_text "TX\nIO21"
 		(at 62.82 148.61 0)
 		(layer "F.SilkS")
 		(uuid "5409b974-1e7b-460a-92d9-0ed720b81d54")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.6)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -9262,13 +9262,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SCL"
-		(at 42.97 158.6 270)
+	(gr_text "SCL\nIO0"
+		(at 42.69 158.77 270)
 		(layer "F.SilkS")
 		(uuid "6bfa52c7-3a88-4374-b7a9-460a4b228e40")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.5 0.5)
 				(thickness 0.07)
 			)
 			(justify left bottom)
@@ -9286,13 +9286,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SDA"
-		(at 40.42 158.62 270)
+	(gr_text "SDA\nIO1\n"
+		(at 40.14 158.79 270)
 		(layer "F.SilkS")
 		(uuid "76193dbc-7f23-4e37-893e-7acf1d2c72c0")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.5 0.5)
 				(thickness 0.07)
 			)
 			(justify left bottom)
@@ -9310,13 +9310,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Key\nIO10"
-		(at 63 143.75 0)
+	(gr_text "Key\nIO9"
+		(at 62.85 143.73 0)
 		(layer "F.SilkS")
 		(uuid "8ec1b124-4be4-4dc1-852e-3f2782a713bf")
 		(effects
 			(font
-				(size 0.6 0.7)
+				(size 0.5 0.6)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -9406,13 +9406,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RX"
+	(gr_text "RX\nIO20"
 		(at 62.79 146.04 0)
 		(layer "F.SilkS")
 		(uuid "cadb793c-6846-43f9-aeb6-326f50852a58")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.6)
 				(thickness 0.1)
 			)
 			(justify left bottom)
