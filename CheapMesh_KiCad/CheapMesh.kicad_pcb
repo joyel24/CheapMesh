@@ -9408,7 +9408,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Cheap/\\/\\esh\nby PaulHausK\n& joyel24\nv1.4.3\n"
+	(gr_text "Cheap/\\/\\esh\nby PaulHausK\n& joyel24\nv1.4.4\n"
 		(at 33.75 149.75 270)
 		(layer "F.SilkS")
 		(uuid "e14dbcf0-3398-4e65-bfa9-0e27198f0236")
