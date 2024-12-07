@@ -1,6 +1,3 @@
-#  WIP - Not tested yet
-EDIT 11/27/2024 : I just confirmed a PCB order of the current version, we'll have some updates soon.
-
 # CheapMesh
 
 ![PCB_3D](./PCB_3D.png)
