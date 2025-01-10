@@ -1,7 +1,9 @@
 # CheapMesh
+<p>
+<img src="https://github.com/user-attachments/assets/b1127f66-4964-4880-b960-523e35963c3f" width="360" />
 
-![PCB_3D](./PCB_3D.png)
-
+<img src="./PCB_3D.png" width="500" />
+</p>
 CheapMesh is a pcb arround the HT-CT62 chip by Heltec.
 
 The goal is to get a cheap Meshtastic node with this chip, therefore some corners where cut.
@@ -12,10 +14,10 @@ Several componemts are implemented double, just pick what works best for you.
 
 ![Schematic](./Schematic.png)
 
-![PCB](./PCB.png)
+
+<img src="./PCB.png" width="300" />
 
 ## BOM
-WIP
 
 ### Antenna 
 * Option A: use the onboard antennas
