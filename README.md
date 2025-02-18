@@ -85,12 +85,9 @@ If you not wanna flash the HT-CT62 on the pcb (you have a already programmed chi
 |R5,R6    |5.1kΩ           |1206 or 3216 metric                                        |2  |
 |Screen1  |Conn_01x04_Pin  |Standard 2.54mm headers                                    |4  |
 |IO02     |Conn_01x01_Pin  |Standard 2.54mm headers                                    |1  |
-
+|U1       |L78L33          |TO-220-3                                                   |1  |
+|U2       |HT-CT62         |RF_Module: Heltec_HT-CT62                                  |1  |
+|U3       |AP2112K-3.3     |Package_TO_SOT_SMD:SOT-23-5                                |1  |
 
  ## License
  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CheapMesh</span> by <span property="cc:attributionName">PaulHausK</span> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
-
-
-|U1       |L78L33          |Package_TO_SOT_THT:TO-220-3_Vertical                       |1  |
-|U2       |HT-CT62         |RF_Module:Heltec_HT-CT62                                   |1  |
-|U3       |AP2112K-3.3     |Package_TO_SOT_SMD:SOT-23-5                                |1  |
