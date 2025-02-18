@@ -17,8 +17,6 @@ Several componemts are implemented double, just pick what works best for you.
 
 <img src="./PCB.png" width="300" />
 
-## BOM
-
 ### Antenna 
 * Option A: use the onboard antennas
 * Option B: use an external antenna with the IPEX connector (and cutting of the onboard lora antenna)
@@ -63,16 +61,36 @@ If you not wanna flash the HT-CT62 on the pcb (you have a already programmed chi
 
 
 ## Building instructions
-WIP
-1. Source the the pcb yourself. I recomend JLCPCB (I not payed nor sponsored by them) to get the pcb created. 5 pcbs should cost 2$ plus shipping and taxes.
+1. Source the the pcb yourself.
 2. Solder on the components.
 3. Flash the ESP.
-    * Option A -  use an external usb serial interface
+    * Option A - use an external usb serial interface like CH34X, CP21XX, FTDI or any other serial interface. 
     * Option B - use the usb A pcb port
-    * Option C - use the usb c port
+    * Option C - use the usb c port (Need to solder it)
 
-
+## BOM
+|Reference|Value           |Footprint                                                  |Qty|
+|---------|----------------|-----------------------------------------------------------|---|
+|AE1,AE2  |Antenna         |                                                           |2  |
+|C1,C5    |C_Polarized     |Depending on power source, +uF if it's instable, optionnal |2  |
+|C3,C6    |C               |0805 or 2012 metric, valuedepens on your LDO choice        |2  |
+|H2,H3    |MountingHole_Pad|3.2mm M3 DIN965                                            |2  |
+|J1       |Conn_01x02_Pin  |Standard 2.54mm headers                                    |2  |
+|J2       |Conn_01x09_Pin  |Standard 2.54mm headers                                    |9  |
+|J4       |USB_C           |TYPE-C-31-M-12                                             |1  |
+|J5       |Conn_Coaxial    |SMA 73251-2120                                             |1  |
+|Q1       |UMH3N           |SOT-363                                                    |1  |
+|R1,R2    |10kΩ            |1206 or 3216 metric                                        |2  |
+|R3,R4    |22Ω             |1206 or 3216 metric                                        |2  |
+|R5,R6    |5.1kΩ           |1206 or 3216 metric                                        |2  |
+|Screen1  |Conn_01x04_Pin  |Standard 2.54mm headers                                    |4  |
+|IO02     |Conn_01x01_Pin  |Standard 2.54mm headers                                    |1  |
 
 
  ## License
  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CheapMesh</span> by <span property="cc:attributionName">PaulHausK</span> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+
+
+|U1       |L78L33          |Package_TO_SOT_THT:TO-220-3_Vertical                       |1  |
+|U2       |HT-CT62         |RF_Module:Heltec_HT-CT62                                   |1  |
+|U3       |AP2112K-3.3     |Package_TO_SOT_SMD:SOT-23-5                                |1  |
