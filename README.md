@@ -24,7 +24,7 @@ Several componemts are implemented double, just pick what works best for you.
 * Option D: solder on a dipol antenna (and cutting of the onboard lora antenna)
   
 ### Screen
-* Completele optional. Make sure to get a screen with the matching pinout.
+* Completele optional. Make sure to get a screen with the matching pinout. I recommend SSD1306 128x64 I2C
 
 ### 3.3V Regulator
 * Option A: use an external 3.3V powersource
@@ -73,7 +73,7 @@ If you not wanna flash the HT-CT62 on the pcb (you have a already programmed chi
 |---------|----------------|-----------------------------------------------------------|---|
 |AE1,AE2  |Antenna         |                                                           |2  |
 |C1,C5    |C_Polarized     |Depending on power source, +uF if it's instable, optionnal |2  |
-|C3,C6    |C               |0805 or 2012 metric, valuedepens on your LDO choice        |2  |
+|C3,C6    |C               |0805 or 2012 metric, value depens on your LDO choice        |2  |
 |H2,H3    |MountingHole_Pad|3.2mm M3 DIN965                                            |2  |
 |J1       |Conn_01x02_Pin  |Standard 2.54mm headers                                    |2  |
 |J2       |Conn_01x09_Pin  |Standard 2.54mm headers                                    |9  |
