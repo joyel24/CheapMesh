@@ -50,7 +50,7 @@ All Resitors are 1206 SMD Resistors
 
 R1, R2: Pullup Resistors, 10kOhm
 
-R3, R4: USB Inline Resistors, 22Ohm
+R3, R4: USB Inline Resistors, zero-Ohm
 
 R5, R6: USB-C Resistors, 5,1kOhm
 
@@ -81,7 +81,7 @@ If you not wanna flash the HT-CT62 on the pcb (you have a already programmed chi
 |J5       |Conn_Coaxial    |SMA 73251-2120                                             |1  |
 |Q1       |UMH3N           |SOT-363                                                    |1  |
 |R1,R2    |10kΩ            |1206 or 3216 metric                                        |2  |
-|R3,R4    |22Ω             |1206 or 3216 metric                                        |2  |
+|R3,R4    |0Ω SHUNT        |1206 or 3216 metric                                        |2  |
 |R5,R6    |5.1kΩ           |1206 or 3216 metric                                        |2  |
 |Screen1  |Conn_01x04_Pin  |Standard 2.54mm headers                                    |4  |
 |IO02     |Conn_01x01_Pin  |Standard 2.54mm headers                                    |1  |
