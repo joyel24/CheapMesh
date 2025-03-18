@@ -10,6 +10,9 @@ The goal is to get a cheap Meshtastic node with this chip, therefore some corner
 
 Several componemts are implemented double, just pick what works best for you.
 
+## ToDo
+- Add CheapMesh variant to Meshtastic firmware
+
 ## PCB
 
 ![Schematic](./Schematic.png)
